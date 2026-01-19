@@ -1,4 +1,4 @@
-# exercicios_java
+# exercícios_java
 - Description: Exercícios do curso de lógica de programação em Java.
   
 # 🧠 Curso de Lógica de Programação em Java
