@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        
+        Scanner sc = new Scanner(System.in);
+         
+        int velo_med, tempo_gasto, km_por_L = 12;
+        tempo_gasto = sc.nextInt();
+        velo_med = sc.nextInt();
+        
+        double distanc = tempo_gasto * velo_med;
+
+        double litros_necess = distanc / km_por_L;
+
+        System.out.printf("%.3f%n", litros_necess);
+     
+        sc.close();
+    }
+}
